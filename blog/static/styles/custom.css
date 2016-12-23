@@ -13,10 +13,25 @@
 	text-align: center;
 	width: 100%;
 }
-.contentInner h1 a{
+.contentInner h1 a,.content h1 a{
 	color: #FCA205;
     font-family: 'Lobster';
 }
 .contentInner .infor-blog h1{
 	text-align: left;
+}
+.gly-icon{
+	display: inline-block;
+	font-size: 35px !important;
+    width: 35px !important;
+    height: 35px !important;
+    background: green !important;
+    text-align: center !important;
+}
+.ctn-text h3{
+	color: #FCA205;
+    font-family: 'Lobster';
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
 }

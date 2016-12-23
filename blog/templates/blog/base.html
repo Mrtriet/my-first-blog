@@ -7,12 +7,17 @@
         <link rel="stylesheet" href="{% static 'styles/custom.css' %}">
         <script src="{% static 'scripts/jquery.js' %}"></script>
         <script src="{% static 'scripts/bootstrap.min.js' %}"></script>
-        
     </head>
     <body>
         <body>
-			<div class="page-header">
-			    <h1><a href="/">Django Girls Blog</a></h1>
+			<div class="contentCotainer">
+				<div class="contentInner">
+					<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus gly-icon"></span></a>
+				    <h1><a href="/">Django Girls Blog</a></h1>
+				    <div class="ctn-text">
+				    	<h3>fskdjfljsdfhldsfhlsdfh</h3>
+				    </div>
+				</div>
 			</div>
 			<div class="content container">
 			    <div class="row">
