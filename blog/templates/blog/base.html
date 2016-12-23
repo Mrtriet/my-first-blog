@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Django blog by MrTr</title>
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'styles/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'styles/custom.css' %}">
+        <script src="{% static 'scripts/jquery.js' %}"></script>
+        <script src="{% static 'scripts/bootstrap.min.js' %}"></script>
+        
+    </head>
+    <body>
+        <body>
+			<div class="page-header">
+			    <h1><a href="/">Django Girls Blog</a></h1>
+			</div>
+			<div class="content container">
+			    <div class="row">
+			        <div class="col-md-8">
+			        {% block content %}
+			        {% endblock %}
+			        </div>
+			    </div>
+			</div>
+		</body>    
+    </body>
+</html>
